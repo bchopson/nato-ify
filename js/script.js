@@ -10,10 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function convert() {
   const input = document.querySelector('#input');
   const output = document.querySelector('#output');
+  output.innerHTML = '';
   if (input.value) {
     output.append(...toNatoMessage(input.value).map(createToken));
-  } else {
-    output.innerHTML = '';
   }
 }
 
