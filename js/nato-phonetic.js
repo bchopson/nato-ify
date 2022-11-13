@@ -1,5 +1,5 @@
 function toNatoMessage(text) {
-  return [...text].map(lookupNato).reduce((acc, curr) => acc + ' ' + curr);
+  return [...text].map(lookupNato);
 }
 
 const lookupNato = (c) => {

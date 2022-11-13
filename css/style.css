@@ -1,3 +1,7 @@
+h1 {
+  font-size: 1.5em;
+}
+
 .container {
   margin: 0 15%;
 }
@@ -13,7 +17,23 @@
 }
 
 .output {
-  border: 1px solid gray;
+  margin-top: 0.5em;
   min-height: 100px;
   width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #f8f7f6;
+  border-radius: 5px;
+}
+
+.token {
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 2px 5px;
+  border: 1px solid #dcd6d0;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
