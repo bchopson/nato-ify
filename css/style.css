@@ -1,0 +1,19 @@
+.container {
+  margin: 0 15%;
+}
+
+.input {
+  width: 100%;
+  padding: 4px 10px;
+  box-sizing: border-box;
+}
+
+#convert {
+  margin-top: 0.5em;
+}
+
+.output {
+  border: 1px solid gray;
+  min-height: 100px;
+  width: 100%;
+}
