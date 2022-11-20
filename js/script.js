@@ -18,6 +18,9 @@ function convert() {
 
 const createToken = (token) => {
   const span = document.createElement('span');
+  if (token === ' ') {
+    token = '\u00B7';
+  }
   span.className = 'token';
   span.textContent = token;
   return span;

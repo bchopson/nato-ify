@@ -43,3 +43,8 @@ h1 {
   border-radius: 5px;
   box-sizing: border-box;
 }
+
+.token::first-letter {
+  font-weight: bold;
+  color: #DC4731;
+}
